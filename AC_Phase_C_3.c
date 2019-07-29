@@ -17,6 +17,8 @@
 #define LEDTRIAC LATD6     //Define una variable a un pin de salida
 #define LEDADC LATD7      //Define una variable a un pin de salida
 
+#define QERTY 0
+
 unsigned int Timer1 =0;   //Variable en la que cuenta el tiempo entre cruces por 0
 unsigned int Ainput =0;   //Variable en la que se guarda el valor leido por el ADC
 
